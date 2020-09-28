@@ -3,7 +3,9 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import InfoBox from './InfoBox';
 import Map from './Map';
-
+import Table from './Table';
+import { sortData } from './utlis';
+import LineGraph from './LineGraph'
 
 function App() {
   const [countries, setCountries] = useState([])
@@ -41,7 +43,9 @@ function App() {
             name: country.country, //United Kingdom, Unites States Of America, India,
             value: country.countryInfo.iso2 //UK, USA, IND
           }));
-        
+          
+          const sortedData = sortData(data);
+          setTableData(sortedData);
           setCountries(countries);
         });
     };
@@ -103,10 +107,12 @@ function App() {
         {/* Table */}
         <CardContent>
           <h3>Live cases by country</h3>
+          <Table countries={tableData} />
         </CardContent>
         {/* Graphs */}
         <CardContent>
           <h3>Worldwide new cases</h3>
+          <LineGraph />
         </CardContent>
       </Card>
     </div>
