@@ -67,6 +67,5 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
       
-    - name: GitHub Action for package.json update.
-      uses: taichi/actions-package-update@v0.5.0
+
 
