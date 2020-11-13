@@ -1,5 +1,5 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ShreyaDhir/Covid-19-Tracker)
-# Contributor
+# Contributors
 Shreya Dhir, Harsh Kumar
 
 # Covid-Tracker
