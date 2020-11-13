@@ -1,4 +1,6 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ShreyaDhir/Covid-19-Tracker)
+# Contributors
+[@ShreyaDhir](https://github.com/ShreyaDhir) [Shreya Dhir] and [@harshmax](https://github.com/harshmax) [Harsh Kumar]
 
 # Covid-Tracker
 Covid-Tracker using React (React Hooks and Material UI)
